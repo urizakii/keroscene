@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keroscene</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="Assets/kr_white_landscapez.png" alt="Keroscene Logo">
+    </div>
+  </header>
+
+ <!-- Hero Section -->
+ <section class="hero">
+    <div class="dim-overlay"> </div>
+    <img src="assets/grouppic.jpg" alt="Keroscene Group Photo" class="hero-bg">
+    <img src="assets/kr_white_landscape.png" alt="Keroscene Logo Overlay" class="hero-overlay">
+  </section>
+
+
+   <!-- About Section -->
+   <section class="about">
+    <div class="container">
+      <p>
+        The first NANA-inspired band in the Philippines. We play alternative, emo, and punk music.
+      </p>
+    </div>
+    </section>
+
+  
+  <!-- Members Section -->
+  <section class="members">
+    <div class="member-cards">
+      <div class="member-card">
+        <img src="assets/zeroportrait.png" alt="00">
+        <div class="member-info">
+          <div class="name">00</div>
+          <div class="role">Guitar</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <img src="assets/oneportrait.png" alt="00">
+        <div class="member-info">
+          <div class="name">01</div>
+          <div class="role">Vocals</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <img src="assets/twoportrait.png" alt="00">
+        <div class="member-info">
+          <div class="name">02</div>
+          <div class="role">Bass</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <img src="assets/threeportrait.png" alt="00">
+        <div class="member-info">
+          <div class="name">03</div>
+          <div class="role">Drums</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <img src="assets/fourportrait.png" alt="00">
+        <div class="member-info">
+          <div class="name">04</div>
+          <div class="role">Keyboard</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="flag-container">
+    <p>Keroscene is based from Pierce The Veil lyrics on the song Hell Above <i>"'Cause I run through glass in the street
+      <b>Kerosene</b> hearts carry the name that my father gave me
+      And take the face of the wolf"</i></p>
+      <img src="assets/flag.png" alt="00">
+  </div>
+
+  <section class="video-carousel">
+    <div class="carousel-container">
+      <button class="carousel-btn prev" onclick="scrollCarousel(-1)">‹</button>
+  
+      <div class="carousel-track" id="carousel-track">
+        <div class="video-wrapper">
+          <img src="Assets/comingsoon.png" alt=""> <!-- replace with iframe embed yt -->
+        </div>
+        <div class="video-wrapper">
+          <img src="Assets/comingsoon.png" alt="">
+        </div>
+        <div class="video-wrapper">
+          <img src="Assets/comingsoon.png" alt="">
+        </div>
+        <!-- Add more if needed -->
+      </div>
+
+      <button class="carousel-btn next" onclick="scrollCarousel(1)">›</button>
+    </div>
+  </section>
+
+
+  <section class="merch-section">
+    <div class="merch-container">
+      <div class="merch-cards">
+        <div class="merch-card">
+          <img src="Assets/merchpin.png" alt="Product 1">
+          <div class="merch-info">
+            <h3>Keroscene Pin</h3>
+            <p>₱50</p>
+          </div>
+        </div>
+        <div class="merch-card">
+          <img src="Assets/merhcd.png" alt="Product 2">
+          <div class="merch-info">
+            <h3>Keroscene CD Album</h3>
+            <p>Soon</p>
+          </div>
+        </div>
+        <div class="merch-card">
+          <img src="Assets/merchsticker.png" alt="Product 3">
+          <div class="merch-info">
+            <h3>Keroscene Sticker Square</h3>
+            <p>Soon</p>
+          </div>
+        </div>
+        <!-- Add more merch-card blocks as needed -->
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section class="social-embed">
+    <div class="embed-container">
+      <iframe 
+        src="https://www.instagram.com/keroscene.x/embed" 
+        allowtransparency="true" 
+        frameborder="0" 
+        scrolling="no" 
+        width="100%" 
+        height="600">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="social-embed">
+    <div class="fb-button-container">
+      <a href="https://www.facebook.com/keroscene.ph" target="_blank" class="fb-button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
+          <path d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24H12.82V14.708h-3.44v-3.62h3.44V8.413c0-3.41 2.084-5.266 5.132-5.266 1.46 0 2.717.108 3.083.156v3.573l-2.115.001c-1.66 0-1.982.79-1.982 1.947v2.552h3.963l-.516 3.62h-3.447V24h6.76c.73 0 1.324-.593 1.324-1.326V1.326C24 .593 23.407 0 22.675 0z"/>
+        </svg>
+        Full gig videos on FB page, Reels on Instagram
+      </a>
+    </div>
+  </section>
+
+  <section class="recruitment-section">
+    <div class="recruitment-container">
+      <h2>We're Looking for a Keyboard player!</h2>
+      <a href="https://forms.gle/o3Y8TvRkiF4ACkAv8" target="_blank" class="recruit-button">Apply Now</a>
+    </div>
+  </section>
+  
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Keroscene. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS for Hamburger -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('nav-active');
+      hamburger.classList.toggle('open');
+    });
+  </script>
+
+<script>
+  function scrollCarousel(direction) {
+    const track = document.getElementById('carousel-track');
+    const scrollAmount = 320; // adjust based on iframe width
+    track.scrollBy({
+      left: scrollAmount * direction,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+</body>
+</html>
